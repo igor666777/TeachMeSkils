@@ -1,27 +1,56 @@
-body{
-    margin-top: 100px;
-    background-color: aliceblue;
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    text-align: center;
+
+h1 {
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+margin-top: 100px;
+color: #212121;
+text-align: center;
 }
-h2{
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
+
+h2 {
+    font-family: "Open Sans";
     font-size: 14px;
     line-height: 19px;
+/* identical to box height */
+    color: #86878B;
+    margin: 30px 0 0;
     text-align: center;
+    font-weight: normal;
 }
 hr {
     height: 2px;
     width: 64px;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid red;
+
+hr.red-bg {
+    background-color: #E72424;
+    border: none;    
+}
+
+hr.green-bg {
+    color: green;
+}
+
+.margin-60 {
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .col-3 {
@@ -30,5 +59,170 @@ hr {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    border: 1px solid blue; 
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.present-block {
+    padding: 7px 0;
+}
+
+.icon-txt {
+    border: 1px solid #E72424;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prescription {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lamp {
+    background: url('../image/lamp.png') center center no-repeat;
+}
+
+.icon-txt.keyboard {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-txt.keyboard img {
+    margin: auto;
+}
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+margin-top: 100px;
+color: #212121;
+text-align: center;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 19px;
+/* identical to box height */
+    color: #86878B;
+    margin: 30px 0 0;
+    text-align: center;
+    font-weight: normal;
+}
+hr {
+    height: 2px;
+    width: 64px;
+}
+
+hr.red-bg {
+    background-color: #E72424;
+    border: none;    
+}
+
+hr.green-bg {
+    color: green;
+}
+
+.margin-60 {
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.col-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.present-block {
+    padding: 7px 0;
+}
+
+.icon-txt {
+    border: 1px solid #E72424;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prescription {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.lamp {
+    background: url('../image/lamp.png') center center no-repeat;
+}
+
+.icon-txt.keyboard {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-txt.keyboard img {
+    margin: auto;
 }
