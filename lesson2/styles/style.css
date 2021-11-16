@@ -777,7 +777,8 @@ color: #333333;
 
 }
 
-.form-g input {
+.form-g input { 
+    
     width: 100%;
     box-sizing: border-box;
     border: none;
